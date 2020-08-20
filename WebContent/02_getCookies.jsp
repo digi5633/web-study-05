@@ -10,9 +10,9 @@
 	<body>
 		<h3> 클라이언트로부터 얻어온 Cookie </h3>
 		<%
-			Cookie[] cookies =request.getCookies();
+		Cookie[] cookies =request.getCookies();
 		for (Cookie c : cookies) {
-			out.println(c.getName()+" : " + c.getValue()+"<br>");
+		out.println(c.getName()+" : " + c.getValue()+"<br>");
 		}
 		%>
 	</body>
