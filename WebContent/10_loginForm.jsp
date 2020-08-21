@@ -8,7 +8,8 @@
 	</head>
 	
 	<body>
-		<form action="10_testLogin.jsp" method="post">
+		<!-- <form action="10_testLogin.jsp" method="post"> -->
+		<form action="LoginServlet" method="get">
 			<label for="userid"> 아이디 : </label>
 			<input type="text" name="id" id="userid"><br>
 			
